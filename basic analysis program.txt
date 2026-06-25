@@ -1,0 +1,129 @@
+# Question 1: How much time do you spend daily on social media?
+q1_col = "How much time do you spend daily on social media?"
+q1_counts = df[q1_col].value_counts()
+q1_percent = df[q1_col].value_counts(normalize=True) * 100
+print("Q1: How much time do you spend daily on social media?")
+print("Counts:\n", q1_counts)
+print("\nPercentages:\n", q1_percent)
+print("\n" + "="*80 + "\n")
+
+
+# Question 2: On which platform do you mostly see online shopping ads or product promotions?
+q2_col = "On which platform do you mostly see online shopping ads or product promotions?"
+q2_counts = df[q2_col].value_counts()
+q2_percent = df[q2_col].value_counts(normalize=True) * 100
+print("Q2: On which platform do you mostly see online shopping ads?")
+print("Counts:\n", q2_counts)
+print("\nPercentages:\n", q2_percent)
+print("\n" + "="*80 + "\n")
+
+# Question 3: Which company's ads do you often notice on social media?
+q3_col = "Which company's ads do you often notice on social media?"
+q3_counts = df[q3_col].value_counts()
+q3_percent = df[q3_col].value_counts(normalize=True) * 100
+print("Q3: Which company's ads do you often notice on social media?")
+print("Counts:\n", q3_counts.head(15))
+print("\nPercentages:\n", q3_percent.head(15))
+print("\n" + "="*80 + "\n")
+
+# Question 4: Choose from this category, which type of product ads are you getting often?
+q4_col = "Choose from this category, which type of product ads are you getting often?"
+q4_counts = df[q4_col].value_counts()
+q4_percent = df[q4_col].value_counts(normalize=True) * 100
+print("Q4: Which type of product ads are you getting often?")
+print("Counts:\n", q4_counts.head(15))
+print("\nPercentages:\n", q4_percent.head(15))
+print("\n" + "="*80 + "\n")
+
+
+# Question 5: How frequently do you come across product advertisements while scrolling on social media?
+q5_col = "How frequently do you come across product advertisements while scrolling on social media?"
+q5_counts = df[q5_col].value_counts()
+q5_percent = df[q5_col].value_counts(normalize=True) * 100
+print("Q5: How frequently do you come across product advertisements?")
+print("Counts:\n", q5_counts)
+print("\nPercentages:\n", q5_percent)
+print("\n" + "="*80 + "\n")
+
+# Question 7: Do influencer videos or product reviews affect your buying decisions?
+q7_col = "Do influencer videos or product reviews affect your buying decisions?"
+q7_counts = df[q7_col].value_counts()
+q7_percent = df[q7_col].value_counts(normalize=True) * 100
+print("Q7: Do influencer videos or product reviews affect your buying decisions?")
+print("Counts:\n", q7_counts)
+print("\nPercentages:\n", q7_percent)
+print("\n" + "="*80 + "\n")
+
+
+# Question 8: Which platform do you mostly see influencer/product review videos?
+q8_col = "Which platform do you mostly see influencer/product review videos?"
+q8_counts = df[q8_col].value_counts()
+q8_percent = df[q8_col].value_counts(normalize=True) * 100
+print("Q8: Which platform do you mostly see influencer/product review videos?")
+print("Counts:\n", q8_counts)
+print("\nPercentages:\n", q8_percent)
+print("\n" + "="*80 + "\n")
+
+
+# Question 9: Have you ever searched for a product after seeing an influencer video?
+q9_col = "Have you ever searched for a product after seeing an influencer video?"
+q9_counts = df[q9_col].value_counts()
+q9_percent = df[q9_col].value_counts(normalize=True) * 100
+print("Q9: Have you ever searched for a product after seeing an influencer video?")
+print("Counts:\n", q9_counts)
+print("\nPercentages:\n", q9_percent)
+print("\n" + "="*80 + "\n")
+
+
+# Question 10: Do you think social media shows you ads related to your recent searches or interests?
+q10_col = "Do you think social media shows you ads related to your recent searches or interests?"
+q10_counts = df[q10_col].value_counts()
+q10_percent = df[q10_col].value_counts(normalize=True) * 100
+print("Q10: Do you think social media shows you ads related to your recent searches?")
+print("Counts:\n", q10_counts)
+print("\nPercentages:\n", q10_percent)
+print("\n" + "="*80 + "\n")
+
+
+# Question 11: If you decide to buy a product, which platform do you usually prefer?
+q11_col = "If you decide to buy a product, which platform do you usually prefer?"
+q11_counts = df[q11_col].value_counts()
+q11_percent = df[q11_col].value_counts(normalize=True) * 100
+print("Q11: Which platform do you usually prefer to buy products?")
+print("Counts:\n", q11_counts.head(15))
+print("\nPercentages:\n", q11_percent.head(15))
+print("\n" + "="*80 + "\n")
+
+
+# Question 12: Before buying a product, where do you usually check product reviews?
+q12_col = "Before buying a product, where do you usually check product reviews?"
+q12_counts = df[q12_col].value_counts()
+q12_percent = df[q12_col].value_counts(normalize=True) * 100
+print("Q12: Where do you usually check product reviews?")
+print("Counts:\n", q12_counts.head(15))
+print("\nPercentages:\n", q12_percent.head(15))
+print("\n" + "="*80 + "\n")
+
+
+# Question 15: In your opinion, how strongly does social media influence your shopping decisions?
+q15_col = "In your opinion, how strongly does social media influence your shopping decisions?"
+q15_counts = df[q15_col].value_counts()
+q15_percent = df[q15_col].value_counts(normalize=True) * 100
+print("Q15: How strongly does social media influence your shopping decisions?")
+print("Counts:\n", q15_counts)
+print("\nPercentages:\n", q15_percent)
+print("\n" + "="*80 + "\n")
+
+
+# Question 16: Any suggestions or comments about how social media advertisements affect customers?
+q16_col = "Any suggestions or comments about how social media advertisements affect customers?"
+q16_counts = df[q16_col].value_counts()
+q16_percent = df[q16_col].value_counts(normalize=True) * 100
+print("Q16: Suggestions or comments about how social media advertisements affect customers?")
+print("Counts:\n", q16_counts.head(20))
+print("\nPercentages:\n", q16_percent.head(20))
+print("\n" + "="*80 + "\n")
+
+
+
+
